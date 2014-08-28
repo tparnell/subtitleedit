@@ -29,6 +29,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules-SE.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -41,7 +42,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <UseVSHostingProcess>true</UseVSHostingProcess>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>AllRules-SE.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Interop.QuartzTypeLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
